@@ -1,4 +1,4 @@
-Summary:	A printer configuration tool with a graphical user interface.
+Summary:	A printer configuration tool with a graphical user interface
 Summary(pl):	Program konfiguracyjny drukarki z graficznym interfejsem
 Summary(pt_BR):	Ferramenta de configuração de impressoras
 Summary(es):	Herramienta de configuración de impresoras
