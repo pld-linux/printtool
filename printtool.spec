@@ -9,6 +9,7 @@ Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	%{name}-%{version}.tar.bz2
+# Source0-md5:	2817f2229147b99c826b0c8a5ed7a878
 Requires:	ghostscript
 Requires:	tcl
 Requires:	tk
