@@ -18,8 +18,6 @@ Requires:	control-panel
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 The printtool is a printer configuration tool with a graphical user
