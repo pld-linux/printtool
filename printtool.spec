@@ -74,14 +74,13 @@ install printtool.desktop $RPM_BUILD_ROOT%{_applnkdir}/System
 	INSTALLDATA="install -m0644" \
 	install
 
-gzip -9nf README CHANGES
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README CHANGES
 %attr(755,root,root) %{_bindir}/printtool
 /usr/lib/rhs/control-panel/printtool.init
 /usr/lib/rhs/control-panel/printtool.xpm
