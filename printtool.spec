@@ -68,7 +68,7 @@ install -d $RPM_BUILD_ROOT{%{_bindir},%{_applnkdir}/System}
 install printtool.desktop $RPM_BUILD_ROOT%{_applnkdir}/System
 
 %{__make} \
-        PREFIX=$RPM_BUILD_ROOT%{_prefix} \
+	PREFIX=$RPM_BUILD_ROOT%{_prefix} \
 	INSTALLBIN="install -m0755" \
 	INSTALLDATA="install -m0644" \
 	install
