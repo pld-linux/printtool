@@ -1,11 +1,15 @@
 Summary:	A printer configuration tool with a graphical user interface.
 Summary(pl):	Program konfiguracyjny drukarki z graficznym interfejsem
+Summary(pt_BR):	Ferramenta de configuração de impressoras
+Summary(es):	Herramienta de configuración de impresoras
 Name:		printtool
 Version:	3.48
 Release: 	1
-Copyright:	GPL
+License:	GPL
 Group:		Applications/Publishing
 Group(pl):	Aplikacje/Publikowanie
+Group(pt_BR):	Aplicações/Editoração
+Group(es):	Aplicaciones/Editoración
 Source:		%{name}-%{version}.tar.gz
 Requires:	ghostscript
 Requires:	tcl
@@ -23,6 +27,16 @@ including Windows (SMB) and NetWare (NCP) printers.
 
 Printtool should be installed so that you can manage local and remote
 printers.
+
+%description -l pt_BR
+O printtool oferece uma interface gráfica para configurar
+impressora. Administra tanto impressoras locais quanto
+remotas. Impressoras Windows (SMB) também podem ser configuradas.
+
+%description -l es
+printtool nos ofrece una interface gráfica para configurar
+impresora. Administra tanto impresoras locales como remotas. También
+pueden ser configuradas impresoras Windows (SMB).
 
 %prep
 %setup -q
