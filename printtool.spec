@@ -9,15 +9,14 @@ License:	GPL
 Group:		X11/Applications
 Source0:	%{name}-%{version}.tar.bz2
 # Source0-md5:	2817f2229147b99c826b0c8a5ed7a878
-Requires:	ghostscript
-Requires:	tcl
-Requires:	tk
-Requires:	rhs-printfilters >= 1.73
 Requires:	LPRng
 Requires:	control-panel
+Requires:	ghostscript
+Requires:	rhs-printfilters >= 1.73
+Requires:	tcl
+Requires:	tk
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
 
 %description
 The printtool is a printer configuration tool with a graphical user
@@ -28,12 +27,12 @@ Printtool should be installed so that you can manage local and remote
 printers.
 
 %description -l es
-El printtool es una herramienta de configuración de impresoras con
-una GUI. Printtool puede manejar ambas las impresoras locales y
-remotas, incluyendo las de Windows (SMB) y NetWare (NCP).
+El printtool es una herramienta de configuración de impresoras con una
+GUI. Printtool puede manejar ambas las impresoras locales y remotas,
+incluyendo las de Windows (SMB) y NetWare (NCP).
 
-Printtool debe instalarse para que pueda manejar sus impresoras locales
-y remotas.
+Printtool debe instalarse para que pueda manejar sus impresoras
+locales y remotas.
 
 %description -l pl
 printtool to narzêdzie do konfiguracji drukarek z graficznym
@@ -63,7 +62,6 @@ install printtool.desktop $RPM_BUILD_ROOT%{_applnkdir}/System
 	INSTALLBIN="install -m0755" \
 	INSTALLDATA="install -m0644" \
 	install
-
 
 %clean
 rm -rf $RPM_BUILD_ROOT
