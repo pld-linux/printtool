@@ -61,10 +61,9 @@ Windows (SMB) também podem ser configuradas.
 
 %install
 rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_desktopdir}}
 
-install -d $RPM_BUILD_ROOT{%{_bindir},%{_applnkdir}/System}
-
-install printtool.desktop $RPM_BUILD_ROOT%{_applnkdir}/System
+install printtool.desktop $RPM_BUILD_ROOT%{_desktopdir}
 
 %{__make} \
 	PREFIX=$RPM_BUILD_ROOT%{_prefix} \
@@ -81,4 +80,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/printtool
 /usr/lib/rhs/control-panel/printtool.init
 /usr/lib/rhs/control-panel/printtool.xpm
-%{_applnkdir}/System/printtool.desktop
+%{_desktopdir}/printtool.desktop
