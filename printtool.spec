@@ -1,8 +1,8 @@
 Summary:	A printer configuration tool with a graphical user interface
-Summary(es):	Herramienta de configuración de impresoras
-Summary(ja):	¥°¥é¥Õ¥£¥«¥ë¥æ¡¼¥¶¥¤¥ó¥¿¥Õ¥§¡¼¥¹¤òÈ÷¤¨¤¿¥×¥ê¥ó¥¿ÀßÄê¥Ä¡¼¥ë
-Summary(pl):	Program konfiguracyjny drukarki z graficznym interfejsem
-Summary(pt_BR):	Ferramenta de configuração de impressoras
+Summary(es.UTF-8):   Herramienta de configuraciÃ³n de impresoras
+Summary(ja.UTF-8):   ã‚°ãƒ©ãƒ•ã‚£ã‚«ãƒ«ãƒ¦ãƒ¼ã‚¶ã‚¤ãƒ³ã‚¿ãƒ•ã‚§ãƒ¼ã‚¹ã‚’å‚™ãˆãŸãƒ—ãƒªãƒ³ã‚¿è¨­å®šãƒ„ãƒ¼ãƒ«
+Summary(pl.UTF-8):   Program konfiguracyjny drukarki z graficznym interfejsem
+Summary(pt_BR.UTF-8):   Ferramenta de configuraÃ§Ã£o de impressoras
 Name:		printtool
 Version:	3.53
 Release:	2
@@ -27,31 +27,31 @@ including Windows (SMB) and NetWare (NCP) printers.
 Printtool should be installed so that you can manage local and remote
 printers.
 
-%description -l es
-El printtool es una herramienta de configuración de impresoras con una
+%description -l es.UTF-8
+El printtool es una herramienta de configuraciÃ³n de impresoras con una
 GUI. Printtool puede manejar ambas las impresoras locales y remotas,
 incluyendo las de Windows (SMB) y NetWare (NCP).
 
 Printtool debe instalarse para que pueda manejar sus impresoras
 locales y remotas.
 
-%description -l ja
-printtool ¤Ï¥°¥é¥Õ¥£¥«¥ë¥æ¡¼¥¶¥¤¥ó¥¿¡¼¥Õ¥§¡¼¥¹¤òÍÑ¤¤¤Æ°õºş¤ÎÀßÄê¤ò¤¹¤ë
-¥Ä¡¼¥ë¤Ç¤¹¡£printtool ¤Ç¤Ï¥í¡¼¥«¥ë¥×¥ê¥ó¥¿¤È Windows (SMB) ¡¢Netware
-(NCP) ¤ò´Ş¤à¥ê¥â¡¼¥È¥×¥ê¥ó¥¿¤ò°·¤¦¤³¤È¤¬¤Ç¤­¤Ş¤¹¡£
+%description -l ja.UTF-8
+printtool ã¯ã‚°ãƒ©ãƒ•ã‚£ã‚«ãƒ«ãƒ¦ãƒ¼ã‚¶ã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã‚’ç”¨ã„ã¦å°åˆ·ã®è¨­å®šã‚’ã™ã‚‹
+ãƒ„ãƒ¼ãƒ«ã§ã™ã€‚printtool ã§ã¯ãƒ­ãƒ¼ã‚«ãƒ«ãƒ—ãƒªãƒ³ã‚¿ã¨ Windows (SMB) ã€Netware
+(NCP) ã‚’å«ã‚€ãƒªãƒ¢ãƒ¼ãƒˆãƒ—ãƒªãƒ³ã‚¿ã‚’æ‰±ã†ã“ã¨ãŒã§ãã¾ã™ã€‚
 
-printtool ¤Ï¥í¡¼¥«¥ë¤È¥ê¥â¡¼¥È¥×¥ê¥ó¥¿¤òÀ©¸æ¤Ç¤­¤ë¤è¤¦¤Ë¤¹¤ë¤¿¤á¤Ë
-¥¤¥ó¥¹¥È¡¼¥ë¤¹¤Ù¤­¤Ç¤¹¡£
+printtool ã¯ãƒ­ãƒ¼ã‚«ãƒ«ã¨ãƒªãƒ¢ãƒ¼ãƒˆãƒ—ãƒªãƒ³ã‚¿ã‚’åˆ¶å¾¡ã§ãã‚‹ã‚ˆã†ã«ã™ã‚‹ãŸã‚ã«
+ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã¹ãã§ã™ã€‚
 
-%description -l pl
-printtool to narzêdzie do konfiguracji drukarek z graficznym
-interfejsem u¿ytkownika. Mo¿e obs³ugiwaæ lokalne i zdalne drukarki, w
+%description -l pl.UTF-8
+printtool to narzÄ™dzie do konfiguracji drukarek z graficznym
+interfejsem uÅ¼ytkownika. MoÅ¼e obsÅ‚ugiwaÄ‡ lokalne i zdalne drukarki, w
 tym windowsowe (SMB) i NetWare (NCP).
 
-%description -l pt_BR
-O printtool oferece uma interface gráfica para configurar impressora.
+%description -l pt_BR.UTF-8
+O printtool oferece uma interface grÃ¡fica para configurar impressora.
 Administra tanto impressoras locais quanto remotas. Impressoras
-Windows (SMB) também podem ser configuradas.
+Windows (SMB) tambÃ©m podem ser configuradas.
 
 %prep
 %setup -q
