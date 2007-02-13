@@ -1,8 +1,8 @@
 Summary:	A printer configuration tool with a graphical user interface
-Summary(es.UTF-8):   Herramienta de configuración de impresoras
-Summary(ja.UTF-8):   グラフィカルユーザインタフェースを備えたプリンタ設定ツール
-Summary(pl.UTF-8):   Program konfiguracyjny drukarki z graficznym interfejsem
-Summary(pt_BR.UTF-8):   Ferramenta de configuração de impressoras
+Summary(es.UTF-8):	Herramienta de configuración de impresoras
+Summary(ja.UTF-8):	グラフィカルユーザインタフェースを備えたプリンタ設定ツール
+Summary(pl.UTF-8):	Program konfiguracyjny drukarki z graficznym interfejsem
+Summary(pt_BR.UTF-8):	Ferramenta de configuração de impressoras
 Name:		printtool
 Version:	3.53
 Release:	2
